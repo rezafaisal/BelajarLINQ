@@ -23,7 +23,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projection_04", "Projection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projection_05", "Projection_05\Projection_05.csproj", "{59FCEC1B-3BFC-4977-AD44-0C138C347977}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{B364CEF3-11D1-4274-B748-9746933AC564}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{B364CEF3-11D1-4274-B748-9746933AC564}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
