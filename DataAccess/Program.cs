@@ -1,4 +1,5 @@
-﻿using DataAccess.SQLServer;
+﻿// using DataAccess.MySQL;
+using DataAccess.SQLServer;
 
 var db = new northwindContext();
 var query = from s in db.Customers select s;
