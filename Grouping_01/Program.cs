@@ -19,3 +19,19 @@ foreach (var group in query1)
         Console.WriteLine(number);
     }
 }
+Console.WriteLine("===============");
+
+string[] words = { "blueberry", "chimpanzee", "abacus", "banana", "apple", "cheese" };
+
+var query2 = from w in words
+                 group w by w[0] into g
+                 select (FirstLetter: g.Key, Words: g);
+
+foreach (var g in query2)
+{
+    Console.WriteLine("Kelompok '{0}':", g.FirstLetter);
+    foreach (var w in g.Words)
+    {
+        Console.WriteLine(w);
+    }
+}
